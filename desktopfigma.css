@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;700&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;700&family=Open+Sans&display=swap");
+body {
+  background-image: url(Desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 64px; 
+}
+
+#text {
+  color: white;
+  margin-left: 59px;
+}
+
+header {
+  display: flex;
+
+}
+.screen {
+  background: url(/screen.png);
+  background-size: cover;
+  width: 696px;
+  height: 493px;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight:bolder;
+}
+.para {
+  font-family: "OpenSans  ", sans-serif;
+  color: white;
+  font-size: 18px;
+  
+}
+.register {
+  background: url(/registerbutton.png);
+  height: 80px;
+  width: 220px;
+  
+}
+main {
+  display: flex;
+  justify-content:flex-start;
+  margin-top: 100px;
+}
+
+.facebook {
+  background-image: url(/facebook.png);
+  width: 40px;
+  height: 40px;
+}
+.twitter {
+  background-image: url(/twitter.png);
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+}
+.instagram {
+  background-image: url(/instagram.png);
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
